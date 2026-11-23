@@ -87,6 +87,7 @@
   slides-url: none,
   qr-caption: [these slides],
   logo: auto,
+  above-logo: auto
 ) = slide({
   set page(margin: 0pt, footer: none)
   set align(horizon)
@@ -120,7 +121,7 @@
           )
         }
 
-        v(1fr)
+        pad(1em, above-logo)
         if logo == auto {
           rect(width: 100%, height: 3em)[
             #set text(size: .3em)
