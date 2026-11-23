@@ -130,7 +130,7 @@
         } else if logo == none {
           // do nothing
         } else {
-          logo
+          pad(1em, logo)
         }
       },
     ), grid.cell(fill: accent1, inset: 1em, align: left)[
